@@ -1,3 +1,3 @@
-# Test note
+# Notes
 
-## Small header for my test note
+[COMP 2406] (pages/COMP2406.html)
