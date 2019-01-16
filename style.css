@@ -1,0 +1,14 @@
+body {
+    background-color: #76A88F;
+}
+p {
+    color: white;
+    font-size: 18px;
+    font-family: helvetica, sans-serif;
+}
+
+h1 {
+    color: white;
+    font-size: 150%;
+    font-family: helvetica, sans-serif;
+}
