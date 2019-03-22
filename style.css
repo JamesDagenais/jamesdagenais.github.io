@@ -14,13 +14,22 @@ h1 {
     font-family: 'Helvetica', sans-serif;
     text-align: center;
 }
-#links {
+.links {
     color: white;
     font-size: 20px;
     font-family: 'Helvetica', sans-serif;
     text-align: center;
     word-spacing: 2em;
 }
+
+.sites {
+    color: white;
+    font-size: 20px;
+    font-family: 'Helvetica', sans-serif;
+    text-align: center;
+    word-spacing: 2em;
+}
+
 a:link {
   color: white;
 }
