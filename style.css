@@ -1,68 +1,90 @@
-html, body {
-    background-color: #5B3761;
+html {
+    scroll-behavior: smooth;
+}
+
+body {
     margin:0;
-    height: 100%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 17px
+    line-height:1.6;
 }
 
-#container {
-    min-height: 100%;
-    position: relative;
+#showcase {
+    background-image:url(pics/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 20px;
 }
 
-#header {
-    padding:10px;
-}
-
-#body {
-    padding: 10px;
-    padding-bottom: 15px; /*height of the footer*/
-}
-
-#footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 15px; /*height of the footer*/
-    font-size: 13px;
-    padding-bottom: 10px;
-    text-align: center;
-}
-
-p {
+#showcase h1 {
     color: white;
-    font-size: 20px;
-    font-family: 'Helvetica', sans-serif;
-    text-align: center;
+    font-size: 80px;
 }
 
-h1 {
+#showcase .button{
+    font-size: 40px;
     color: white;
-    font-size: 500%;
-    font-family: 'Helvetica', sans-serif;
-    text-align: center;
-}
-.links {
-    color: white;
-    font-size: 20px;
-    font-family: 'Helvetica', sans-serif;
-    text-align: center;
 }
 
-.sites {
-    color: white;
-    font-size: 20px;
-    font-family: 'Helvetica', sans-serif;
-    text-align: center;
+#showcase .button:hover{
+    color: cyan;
 }
 
-a:link {
-  text-decoration: none;
-  font-weight: bolder;
-  color: white;
+#about {
+    height:100vh;
+    background-color: #E2AFEA;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 0 2em;
+    color: white
 }
-a:visited {
-  color: white;
+
+#projects {
+    height: 100vh;
+    background-color: #B7EAAF;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 2em;
+    color: white;
+    align-items: center;
 }
-a:hover {
-  color: #F6C4FF;
+
+#projects .header {
+    align-self: flex-start;
+    grid-column: 1/4;
+}
+
+#links {
+    background-color: #E2AFEA;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+#links a {
+    flex:1;
+    font-size: 100px;
+    letter-spacing: 1em;
+    color: white;
+}
+
+#links a:hover {
+    color: cyan;
+}
+
+#links .button {
+    font-size: 40px;
+    color: white;
+}
+
+#links .button:hover {
+    color: cyan;
 }
