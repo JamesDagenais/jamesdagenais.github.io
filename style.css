@@ -9,6 +9,45 @@ body {
     line-height:1.6;
 }
 
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navbar a {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #4CAF50;
+    color:white;
+}
+
+#navbar a.active {
+    background-color: white;
+    color:#333;
+}
+
+.sticky {
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+
+.content {
+    padding: 60px;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
 #showcase {
     background-image:url(pics/bg.jpg);
     background-size: cover;
@@ -37,30 +76,40 @@ body {
 
 #about {
     height:100vh;
-    background-color: #E2AFEA;
+    background-color: #DD9EC6;
     display: grid;
     grid-template-columns: 3fr 1fr;
     padding: 0 2em;
     color: white
 }
 
+#about .left {
+    padding-top: 3em;
+}
+
+#about .right {
+    padding-top: 3em;
+}
+
 #projects {
     height: 100vh;
-    background-color: #B7EAAF;
+    background-color: #DD9EC6;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 0 2em;
     color: white;
     align-items: center;
+    justify-content: center;
 }
 
 #projects .header {
+    padding-top: 3em;
     align-self: flex-start;
     grid-column: 1/4;
 }
 
 #links {
-    background-color: #E2AFEA;
+    background-color: #DD9EC6;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -83,8 +132,15 @@ body {
 #links .button {
     font-size: 40px;
     color: white;
+    position: fixed;
+    bottom:0;
+    padding-bottom: 1em;
 }
 
 #links .button:hover {
     color: cyan;
+}
+
+.invis {
+    display: none;
 }
