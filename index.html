@@ -11,74 +11,19 @@
     </head>
 
     <body>
-        <header id="showcase">
-                <h1>James Dagenais</h1>
-                <a href="#about" class="button"><i class="fas fa-chevron-down"></i></a>
-        </header>
-
-        <div id="navbar">
-            <a href="#links">Find Me</a>
-            <a href="#projects">Projects</a>
-            <a href="#about">About Me</a>
-        </div>
-
-        <div id="about" class = "content">
+        <div id="landingpage">
             <div class="left">
-                <h2>James Dagenais</h2>
-                <h3>About me</h3>
-                <p>Developer i guess.</p>
-                <p>Website is a work in progress...</p>
-            </div>
+                <a href="about.html">About</a>
+                <a href="gfx.html">Graphic Design</a>
+                <a href="illustration.html">Illustration</a>
+                <a href="photography.html">Photography</a>
+                <a href="other.html">Other</a>
+            </div class="left">
+
             <div class="right">
-                <p>This is another column.. for other things</p>
-            </div>
+                <h1>JAMES</h1>
+            </div class="right">
         </div>
-
-        <div id="projects" class = "content">
-            <div class="header">
-                <h2>Projects</h2>
-            </div>
-            <div class ="project1">
-                <a href="https://osu-search-app.herokuapp.com/" target="_blank">> > > osu! user info search < < <</a>
-            </div>
-            <div>
-                <p>project 2</p>
-            </div>
-            <div>
-                <p>project 3</p>
-            </div>
-            </div>
-        </div>
-
-        <div id="links">
-            <div>
-                <a href="https://github.com/JamesDagenais" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/jamesdagenais/" target="_blank"><i class="fab fa-linkedin"></i></a>
-            </div>
-            <footer>
-                <a href="#about" class="button" id="home" title = "Take me home!"><i class="fas fa-chevron-up"></i></a>
-            </footer>
-        </div>
-
-        <script>
-        window.onscroll = function() {navscroll()}
-
-        var navbar = document.getElementById("navbar")
-        var home = document.getElementById("home")
-        var sticky = navbar.offsetTop //pixel location
-
-        function navscroll () {
-            if (window.pageYOffset >= sticky) {
-                navbar.classList.add("sticky")
-                navbar.classList.remove("invis")
-                home.classList.remove("invis")
-            } else {
-                navbar.classList.remove("sticky")
-                navbar.classList.add("invis")
-                home.classList.add("invis")
-            }
-        }
-        </script>
 
     </body>
 
