@@ -123,6 +123,21 @@ padding-top: 3em;
     padding-top: 3em;
 }
 
+#illustration h1{
+  padding-bottom: 1em;
+}
+
+#illustration img {
+  height: 15em;
+  width: auto;
+  transition:transform 0.20s ease;
+}
+
+#illustration img:hover {
+    -webkit-transform:scale(2); /* or some other value */
+    transform:scale(2);
+}
+
 #other {
     height:100vh;
     background-color: white;
@@ -135,6 +150,16 @@ padding-top: 3em;
     padding-top: 3em;
 }
 
+#other img {
+  width: 15em;
+  height: auto;
+}
+
+figure{
+  text-align: center;
+  display: inline-block;
+}
+
 #photography {
     height:100vh;
     background-color: white;
@@ -145,6 +170,21 @@ padding-top: 3em;
     margin: auto;
     width: 50%;
     padding-top: 3em;
+}
+
+#photography h1{
+  padding-bottom: 1em;
+}
+
+#photography img {
+  height: 10em;
+  width: auto;
+  transition:transform 0.20s ease;
+}
+
+#photography img:hover {
+    -webkit-transform:scale(2); /* or some other value */
+    transform:scale(2);
 }
 
 footer {
