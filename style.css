@@ -28,12 +28,70 @@ h4 {
     margin-bottom: 0;
 }
 
+h5 {
+    color: #F2E9E4;
+    font-family: Arial;
+    font-size: 1.5em;
+    font-style: normal;
+}
+
 p {
     text-align: justify;
 }
 
 ul {
     line-height: 1.5;
+}
+
+.grid-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 30% 30% 30%;
+    padding: 10px;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+
+}
+
+a {
+    color: #4A4E69;
+    text-decoration: none;
+}
+
+.grid-item {
+    padding: 2em;
+    background-color: #F2E9E4;
+    filter: drop-shadow(.5em .5em 10px rgba(0, 0, 0, 0.5));
+
+    -webkit-transition: background-color 350ms linear;
+    -ms-transition: background-color 350ms linear;
+    transition: background-color 350ms linear;
+    border-radius: 1.5em;
+    transform: scale(1);
+    transition: all 600ms;
+}
+
+.grid-item:hover {
+    background-color: #C9ADA7;
+    -webkit-transition: background-color 350ms linear;
+    -ms-transition: background-color 350ms linear;
+    transition: background-color 350ms linear;
+    transform: scale(1.1);
+    transition: all 600ms;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 1em;
+}
+
+.desc {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-top: 1em;
+    text-align: center;
+    color: #4A4E69;
 }
 
 #socials {
