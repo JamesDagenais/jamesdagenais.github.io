@@ -50,12 +50,29 @@ ul {
     padding: 10px;
     grid-column-gap: 50px;
     grid-row-gap: 50px;
-
 }
 
 a {
     color: #4A4E69;
     text-decoration: none;
+}
+
+.portfolio_link {
+    padding-top: 1.5em;
+    justify-content: center;
+    text-align: center;
+}
+
+.portfolio_link a {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #4A4E69;
+    transition: all 1s;
+}
+
+.portfolio_link a:hover {
+    color: white;
+    transition: all 600ms;
 }
 
 .grid-item {
@@ -102,10 +119,12 @@ a {
 
 #socials a {
   color: #4A4E69;
-  font-size: 1.5em;
+  font-size: 2em;
   letter-spacing: 1em;
+  transition: all 1s;
 }
 
 #socials a:hover {
   color: white;
+  transition: all 600ms;
 }
