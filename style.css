@@ -1,9 +1,9 @@
 body {
   font-family: Arial;
-  background-color: #F2E9E4;
+  background-color: #ffffff;
   text-align: left;
   margin: 2em 3.5em;
-  color: #4A4E69;
+  color: #284b63;
 }
 
 h1 {
@@ -21,7 +21,7 @@ h3 {
 }
 
 h4 {
-    color: #7C81A2;
+    color: #3c6e71;
     margin-top: 0;
     padding-top: 0.25em;
     padding-bottom: 0;
@@ -29,7 +29,7 @@ h4 {
 }
 
 h5 {
-    color: #F2E9E4;
+    color: #990100;
     font-family: Arial;
     font-size: 1.5em;
     font-style: normal;
@@ -37,10 +37,12 @@ h5 {
 
 p {
     text-align: justify;
+    color: #353535;
 }
 
 ul {
     line-height: 1.5;
+    color: #333333;
 }
 
 .grid-container {
@@ -66,18 +68,18 @@ a {
 .portfolio_link a {
     text-decoration: underline;
     font-weight: bold;
-    color: #4A4E69;
+    color: #6caeb2;
     transition: all 1s;
 }
 
 .portfolio_link a:hover {
-    color: white;
+    color: #3c6e71;
     transition: all 600ms;
 }
 
 .grid-item {
     padding: 2em;
-    background-color: #F2E9E4;
+    background-color: #ffffff;
     filter: drop-shadow(.5em .5em 10px rgba(0, 0, 0, 0.5));
 
     -webkit-transition: background-color 350ms linear;
@@ -89,7 +91,7 @@ a {
 }
 
 .grid-item:hover {
-    background-color: #C9ADA7;
+    background-color: #d9d9d9;
     -webkit-transition: background-color 350ms linear;
     -ms-transition: background-color 350ms linear;
     transition: background-color 350ms linear;
@@ -118,13 +120,13 @@ a {
 }
 
 #socials a {
-  color: #4A4E69;
+  color: #6caeb2;
   font-size: 2em;
   letter-spacing: 1em;
   transition: all 1s;
 }
 
 #socials a:hover {
-  color: white;
+  color: #3c6e71;
   transition: all 600ms;
 }
