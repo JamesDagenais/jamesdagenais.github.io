@@ -6,6 +6,10 @@ body {
   color: #284b63;
 }
 
+.resume {
+    margin: 2em 8em;
+}
+
 h1 {
     font-size: 4em;
 }
